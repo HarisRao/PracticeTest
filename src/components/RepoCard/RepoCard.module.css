@@ -1,0 +1,42 @@
+.repoCard {
+  border: 1px solid #57606a69;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 3px #6c757d2b;
+}
+.desc {
+  color: #57606a;
+  margin-bottom: 0;
+}
+.ownerImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.ownerImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+}
+.builtDiv {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.builtDiv p {
+  margin-bottom: 0;
+}
+.ownerImgDiv {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.usernameDiv {
+  font-size: 14px;
+  font-weight: 600;
+}

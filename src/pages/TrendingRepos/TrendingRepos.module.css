@@ -1,0 +1,18 @@
+.mainDiv {
+  padding: 32px 0;
+}
+.mainDiv h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.repoCardDiv {
+  margin-bottom: 18px;
+}
+.ErrorDiv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
