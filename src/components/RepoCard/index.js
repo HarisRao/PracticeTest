@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./RepoCard.module.css";
 const RepoCard = ({ data }) => {
-  console.log(data, "data");
   return (
     <div
       className={classes.repoCard}

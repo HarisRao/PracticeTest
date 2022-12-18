@@ -5,7 +5,6 @@ import { BaseURL } from "../../config/apiUrl";
 export const fetchRepos = createAsyncThunk(
   "TrendingRepos/fetchRepos",
   ({ page, limit }) => {
-    // return axios.get(BaseURL(`repositories`)).then((res) => res?.data);
     return axios
       .get(
         BaseURL(`search/repositories?q=trending&page=${page}&per_page=${limit}`)
@@ -23,7 +22,6 @@ const initialState = {
 const TrendingRepoReducer = createSlice({
   name: "TrendingRepos",
   initialState,
-  reducers: {},
   extraReducers: (builder) => {
     builder.addCase(fetchRepos.pending, (state) => {
       state.isLoading = true;
